@@ -28,6 +28,12 @@ docker-compose run --rm freqtrade download-data --exchange binance -t 15m --time
 docker-compose run --rm freqtrade hyperopt --enable-protections --strategy SwingHighToSky --hyperopt-loss SharpeHyperOptLoss -i 15m -e 3000
 
 
+git add .
+git commit -m "Hyperopt new updatte"
+git pull origin main
+git push origin branch-name #we need ssh key for pushing
+
+
 
 
 

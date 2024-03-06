@@ -1,15 +1,15 @@
 [
   "KDA/USDT",
-  "ATOM/USDT",
-  "DOT/USDT",
-  "COTI/USDT",
-  "EOS/USDT",
-  "ETH/USDT",
   "IOTA/USDT",
+  "MATIC/USDT",
+  "Audio/USDT",
+  "COTI/USDT",
+  "DOT/USDT",
+  "Audio/USDT",  
+  "FIL/USDT",
+  "SOL/USDT",  
+  "ADA/USDT",
   "LINK/USDT",
-  "LTC/USDT",
-  "NEO/USDT",
-  "XMR/USDT",
-  "XRP/USDT",
-  "XTZ/USDT"
+  "CHZ/USDT",
+  "AXS/USDT"
 ]

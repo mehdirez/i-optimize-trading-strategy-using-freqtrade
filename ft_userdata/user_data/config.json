@@ -1,12 +1,13 @@
 {
-    "max_open_trades": 10,
+    "max_open_trades": 4,
     "stake_currency": "USDT",
     "stake_amount" : "unlimited",
     "tradable_balance_ratio": 0.99,
     "fiat_display_currency": "USD",
     "timeframe": "15m",
-    "dry_run": true,
+    "dry_run": false,
     "dry_run_wallet": 1000,
+    "live_run_wallet": 100,
     "cancel_open_orders_on_exit": false,
     "unfilledtimeout": {
         "buy": 10,
@@ -33,8 +34,8 @@
     },
     "exchange": {
         "name": "binance",
-        "key": "",
-        "secret": "",
+        "key": "7qCoQlmVDeFSNFrqhnfb1fMmTJUZLZbzQeKlbXRbhmqdRScUBIRD40ODFHR8Lt6G",
+        "secret": "nigNhMMoNgCZUrTWTkafaDsyWWAeiSBWAuQv7KBW2lqbHxcK0kM59v8V6Pk2nVQs",
         "ccxt_config": {"enableRateLimit": true},
         "ccxt_async_config": {
             "enableRateLimit": true,
@@ -42,18 +43,9 @@
         },
         "pair_whitelist": [
             "KDA/USDT",
-            "ATOM/USDT",
-            "DOT/USDT",
-            "COTI/USDT",
-            "EOS/USDT",
-            "ETH/USDT",
             "IOTA/USDT",
-            "LINK/USDT",
-            "LTC/USDT",
-            "NEO/USDT",
-            "XMR/USDT",
-            "XRP/USDT",
-            "XTZ/USDT"
+            "MATIC/USDT",
+            "Audio/USDT"
         ],
         "pair_blacklist": [
             "BNB/*" 
